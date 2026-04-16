@@ -92,6 +92,7 @@ module tb_top_verilator
           .COREV_CLUSTER     (0),
           .FPU               (0),
           .ZFINX             (0),
+          .COREV_PULP        (1),
           .DM_HALTADDRESS    (32'h1A110800)
          )
     cv32e40p_core_tb_wrapper_i
